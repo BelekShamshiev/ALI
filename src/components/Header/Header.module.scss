@@ -1,9 +1,9 @@
 .header {
+    width: auto;
     .header_dev {
       background-color:#B0B0B0;
       height: 40px;
       marquee {
-        display: flex;
         p{
         color: rgb(0, 0, 0);
          font-size: 25px;     
@@ -12,3 +12,9 @@
       }
     }
   }
+@media(max-width:371px){
+    .header{
+
+        width: auto;
+    }
+}

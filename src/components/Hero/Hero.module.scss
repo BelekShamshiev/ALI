@@ -290,6 +290,20 @@
   }
 }
 @media(max-width:400px){
+  .hero_dev_head_two{
+    button{
+      width: auto;
+    }
+    h1{
+      font-size: 25px;
+    }
+  }
+  .hero_dev_head_one{
+    width: 330px;
+    h1{
+      font-size: 25px;
+    }
+  }
   .background{
     width: 375px;
   }
@@ -298,8 +312,8 @@
   }
   .hero_dev_head_one_btn{
     button{
-      display: none;
-      width: 337px;
+      // display: none;
+      width:auto;
     }
   }
 }
