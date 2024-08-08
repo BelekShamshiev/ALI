@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Hero.module.scss";
-import logo from "../../assets/loggo.png";
+import logo from "../../assets/lo.png";
 import telega from "../../assets/loggo.png";
 import geo from "../../assets/geo.png";
 import f from "../../assets/f.png";
@@ -78,12 +78,12 @@ const Hero = () => {
             </div>
             <div className={s.hero_right_deo_quote}>
               {/* <img src={f} alt="quote" /> */}
-              <p>
+              {/* <p>
                 "Независимо от сложности изделия, мы гарантируем соблюдение
                 высоких стандартов качества и сроков, указанных в договоре. Наше
                 производство всегда обеспечивает надежность и точность в
                 выполнении ваших заказов."
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

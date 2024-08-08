@@ -10,7 +10,7 @@ import Contacts from "../../components/Contact/Contact";
 const Main = () => {
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     <Hero/>
     {/* <Contacts/> */}
     {/* <Slider/> */}
