@@ -1,4 +1,3 @@
-/* Анимация плавного появления с левой стороны */
 @keyframes slideInFromLeft {
   from {
     transform: translateX(-100%);
@@ -11,7 +10,6 @@
 }
 
 .background {
-  // background-image: url(../../assets/back.webp);
   max-width: 1440px;
   height: auto;
   margin: 0 auto;
@@ -29,7 +27,7 @@
 .hero_right {
   width: 600px;
   height: 900px;
-  background-color: #6A8D92; /* Серо-голубой цвет */
+  background-color: #00ac69; /* Серо-голубой цвет */
   animation: slideInFromLeft 1.5s ease-out;
 }
 
@@ -42,7 +40,7 @@
     p {
       width: 300px;
       text-align: start;
-      color: #000000;
+      color: #0e3b3a;
     }
   }
   text-align: start;
@@ -65,7 +63,7 @@
 .hero_right_name h1 {
   font-size: 35px;
   text-align: start;
-  color: #000000; /* Черный цвет для текста */
+  color: #d0b787; /* Черный цвет для текста */
   animation: slideInFromLeft 1.5s ease-out;
 }
 
@@ -109,7 +107,7 @@
   height: 100px;
   border: none;
   color: #FFFFFF;
-  background-color: #6A8D92; /* Серо-голубой цвет */
+  background-color: #00ac69; /* Серо-голубой цвет */
   animation: slideInFromLeft 1.5s ease-out;
 }
 
@@ -127,7 +125,7 @@
 }
 
 .hero_dev_desc_head h2 {
-  color: #6A8D92; /* Серо-голубой цвет */
+  color: #00ac69; /* Серо-голубой цвет */
   text-align: start;
   font-size: 30px;
   font-weight: 200;
@@ -145,7 +143,7 @@
   font-weight: 50;
   text-align: start;
   font-size: 50px;
-  color: #000000; /* Черный цвет для текста */
+  color: #0e3b3a; /* Черный цвет для текста */
   animation: slideInFromLeft 1.5s ease-out;
 }
 
@@ -162,7 +160,7 @@
 
 .hero_dev_head_one_btn button {
   color: #FFFFFF;
-  background-color: #6A8D92; /* Серо-голубой цвет */
+  background-color: #00ac69; /* Серо-голубой цвет */
   width: 150px;
   border-radius: 10px;
   border: none;
@@ -187,7 +185,7 @@
   height: 55px;
   font-size: 20px;
   color: #FFFFFF;
-  background-color: #6A8D92; /* Серо-голубой цвет */
+  background-color: #00ac69; /* Серо-голубой цвет */
   width: 420px;
   height: 55px;
   animation: slideInFromLeft 1.5s ease-out;
@@ -209,7 +207,7 @@
 
 .hero_dev_logo p {
   align-items: center;
-  color: #6A8D92; /* Серо-голубой цвет */
+  color: #d0b787; /* Серо-голубой цвет */
   font-size: 20px;
   animation: slideInFromLeft 1.5s ease-out;
 }
