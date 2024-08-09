@@ -4,6 +4,7 @@ import AboutPage from "../../components/About/About";
 import Header from "../../components/Header/Header";
 import Slider from "../../components/Slider/Slider";
 import Contacts from "../../components/Contact/Contact";
+import Stages from "../../components/Stages/Stages";
 
 
 
@@ -12,7 +13,8 @@ const Main = () => {
     <>
     {/* <Header/> */}
     <Hero/>
-    {/* <Contacts/> */}
+    <Stages/>
+    <Contacts/>
     {/* <Slider/> */}
     {/* <AboutPage/> */}
     </>

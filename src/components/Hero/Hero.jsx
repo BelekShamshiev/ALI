@@ -89,7 +89,6 @@ const Hero = () => {
         </div>
       </div>
       <div className={s.contact_block}>
-        <ContactBlock />
       </div>
     </div>
   );
