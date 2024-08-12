@@ -11,7 +11,7 @@ import Stages from "../../components/Stages/Stages";
 const Main = () => {
   return (
     <>
-    {/* <Header/> */}
+    <Header/>
     <Hero/>
     <Stages/>
     <Contacts/>
