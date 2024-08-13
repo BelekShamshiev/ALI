@@ -7,6 +7,9 @@ import tele from "../../assets/tele.jpg";
 import bk from "../../assets/vk.jpg";
 const ContactBlock = () => {
   return (
+    <div className={s.container}>
+
+   
     <div className={s.contactBlock}>
       <h2 className={s.title}>Связь с нами</h2>
       <div className={s.contactList}>
@@ -35,7 +38,7 @@ const ContactBlock = () => {
           </a>
         </div>
       </div>
-    </div>
+    </div> </div>
   );
 };
 

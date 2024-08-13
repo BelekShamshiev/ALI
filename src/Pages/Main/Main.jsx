@@ -6,17 +6,15 @@ import Slider from "../../components/Slider/Slider";
 import Contacts from "../../components/Contact/Contact";
 import Stages from "../../components/Stages/Stages";
 
-
-
 const Main = () => {
   return (
     <>
-    <Header/>
-    <Hero/>
-    {/* <Stages/> */}
-    <Contacts/>
-    <Slider/>
-    {/* <AboutPage/> */}
+      <Header />
+      <Hero />
+      {/* <Stages/> */}
+      <Slider /> 
+      <Contacts />
+      {/* <AboutPage/> */}
     </>
   );
 };
