@@ -13,9 +13,9 @@ const Main = () => {
     <>
     <Header/>
     <Hero/>
-    <Stages/>
+    {/* <Stages/> */}
     <Contacts/>
-    {/* <Slider/> */}
+    <Slider/>
     {/* <AboutPage/> */}
     </>
   );

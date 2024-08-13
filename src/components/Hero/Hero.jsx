@@ -49,7 +49,7 @@ const Hero = () => {
           </button>
         </div> */}
         </div>
-        <div className={s.hero_right}>
+        {/* <div className={s.hero_right}>
           <div className={s.hero_right_deo}>
             <div className={s.hero_right_geo}>
               <img src={geo} alt="geo" />
@@ -77,16 +77,10 @@ const Hero = () => {
               </p>
             </div>
             <div className={s.hero_right_deo_quote}>
-              {/* <img src={f} alt="quote" /> */}
-              {/* <p>
-                "Независимо от сложности изделия, мы гарантируем соблюдение
-                высоких стандартов качества и сроков, указанных в договоре. Наше
-                производство всегда обеспечивает надежность и точность в
-                выполнении ваших заказов."
-              </p> */}
+
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className={s.contact_block}>
       </div>

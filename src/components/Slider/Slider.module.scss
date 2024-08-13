@@ -1,188 +1,150 @@
 .container {
-    background-image: url(../../assets/back.webp);
-    max-width: 100%;
-    height: 600px;
+    max-width: 1600px;
+    width: 90%;
     margin: 0 auto;
+    margin-top: 100px;
+    height: 100px;
   }
-  .blog_title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: center;
+  .swiper-pagination {
+    background-color: #f1f1f1;
   }
-  .blog_title h1 {
+  
+  .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #ff0000;
+  }
+  
+  .build_title > h1 {
     font-family: "Quicksand";
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 62px;
     display: flex;
-    align-items: center;
-    color: #372727;
-    margin-top: 53px;
-  }
-  .coment{
-    margin-top: 20px;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
+    color: #e4b95b;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.5);
   }
-  .data_slider_card{
+  .build_title > p {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+  }
+  .swiper {
+    margin-top: 70px;
+    width: 100%;
+    height: 400px;
+  }
+  .swiper_img {
+    border-radius: 25px;
     cursor: pointer;
-    background-color: white;
-    width: 310px;
-    border-radius: 20px;
-    height: 370px;
-    text-align: center;
-  }
-  .coment>p{
-    font-size: 12px;
-    font-family: "Quicksand";
-  }
-  .data_slider_card_title>img{
+    width: 350px;
     transition: transform 0.5s ease-in-out;
-    width: 310px;
-    border-radius: 20px;
-    height: 200px;
-    transition: transform 0.4s ease-in-out;
   }
-  .data_slider_card_title>img:hover{
+  .swiper_img:hover {
+    filter: brightness(90%);
     transform: scale(0.96);
-  
   }
-  .blog_desc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
+  .swiper-slide-prev .swiper_img,
+  .swiper-slide-next .swiper_img {
+    transition: transform 0.3s ease-in-out;
   }
-  .lorem{
-    font-size: 13px;
-    color: #372727  ;
-    margin-top: 20px;
-  }
-  .blog_desc > p {
-    font-family: "Quicksand";
-    font-style: normal;
-    font-weight: 700;
-    text-align: center;
-    font-size: 20px;
-    line-height: 25px;
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    color: rgba(0, 0, 0, 0.25);
-  }
-  .data_slider {
-    width:85%;
-    height: 415px;
-    margin: 0 auto;
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-  }
-  .make{
-    font-size: 25px;
-  }
-  .swiper-button-next::after{
-    display: none;
-  }
-  @media only screen and (max-width: 1024px) {
-    .container {
-      max-width: 100%;
-      height: auto;
-      padding: 0 20px;
-      height: 600px;
-    }
-  
-    .blog_title > h1 {
-      font-size: 40px;
-      line-height: 50px;
-    }
-    .blog_desc > p {
-      font-size: 18px;
-      line-height: 22px;
-    }
-    .data_slider_card{
-      width: 250px;
-      height: 350px;
-    }
-    .data_slider_card_title img{
-      width: 250px;
-    }
-    .data_slider {
-      margin-top: 50px;
-      height: 400px;
-    }
-    .coment{
-      display: none;
-    }
+  .wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
+  .swiper_title {
+    line-height: 40px;
+    font-size: 18px;
+    margin-right: 150px;
+  }
   
-  @media(max-width:768px){
-    .container{
-      width: 100%;
-    }
-    .data_slider_card{
-      width: 270px;
-    }
-    .data_slider_card_title>img{
-      width: 270px;
-    }
-    .coment{
-      display: none;
-    }
-    .lorem {
+  .swiper_btn button {
+    background-color: transparent; /* Зеленый цвет фона кнопки */
+    border: none; /* Удаление границ кнопки */
+    color: white; /* Белый цвет текста кнопки */
+    text-align: center; /* Центрирование текста кнопки */
+    text-decoration: none; /* Удаление подчеркивания текста кнопки */
+    display: inline-block; /* Отображение кнопки как блочный элемент */
+    font-size: 20px; /* Размер шрифта кнопки */
+    cursor: pointer;
+    color: black;
+    height: 35px;
+    margin-top: 10px;
+    transition: all 0.25s;
+    width: 130px;
+    padding: 5px;
+    border-radius: 20px;
+    border: solid 1px black;
+  }
+  .swiper_btn button:hover {
+    background-color: #e4b95b;
+    color: white;
+  }
+  
+  @media (max-width: 1024px) {
+    .swiper_img {
       width: 200px;
-      align-items: center;
-      justify-content: center;
+    }
+    .swiper_btn button {
       margin-left: 40px;
     }
-    .coment>img{
-      margin-left: 70px;
-    }
-    .data_slider{
-      justify-content: center;
-      align-items: center;
-    }
   }
-  @media (max-width:425px){
-    .data_slider{
-      justify-content: center;
-      align-items: center;
+  @media (max-width: 768px) {
+    .swiper {
+      height: 325px;
     }
-  }
-  @media(max-width:320px){
-    .data_slider_card{
+    .swiper_img {
       width: 200px;
-      height: 300px;
     }
-    .data_slider_card_title img{
-      width: 200px;
-      height: 150px;
-    }
-    .coment{
+    .swiper_btn button {
       display: none;
-      max-width: 100px;
-      width: 30%;
-      margin: 0 auto;
     }
-    .coment img{
-      width: 12px;
-      height: 12px;
+  }
+  @media (max-width: 426px) {
+    .container {
+      height: 450px;
+      margin-top: 600px;
     }
-    .coment p{
-      font-size: 10px;
+    .swiper {
+      height: 200px;
     }
-    .make{
-      font-size:20px;
-    }
-    .lorem{
-      font-size: 10px;
+    .swiper_img {
       width: 150px;
-      margin-left: 25px;
-  
     }
-  }  
+    .build_title > h1 {
+      font-size: 28px;
+    }
+  }
+  @media (max-width: 376px) {
+    .container {
+      height: 450px;
+      margin-top: -0px;
+    }
+  }
+  @media (max-width: 320px) {
+    .container {
+      width: 320px;
+      margin-top: 200px;
+    }
+    .build_title > p {
+      margin-top: -110px !important;
+      display: none;
+    }
+    .swiper {
+      height: 170px;
+      margin-top: -100px;
+    }
+    .swiper_img {
+      width: 130px;
+      height: 130px;
+    }
+    .build_title > h1 {
+      font-size: 25px;
+      margin-top: -50px !important;
+      z-index: -1;
+      display: none;
+    }
+  }
